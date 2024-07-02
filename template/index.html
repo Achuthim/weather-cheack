@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal</title>
+    <link href="{{url_for('static',filename='styles/styles.css')}}" rel="stylessheet"/>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to the Portal</h2>
+        <div class="portal">
+            <h3>Student Portal</h3>
+            <form action="/student" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="future_career">Future Career:</label>
+                <input type="text" id="future_career" name="future_career" required><br><br>
+
+                <label for="expertise">Expertise:</label>
+                <input type="text" id="expertise" name="expertise" required><br><br>
+
+                <label for="preferred_time">Preferred Time:</label>
+                <input type="text" id="preferred_time" name="preferred_time" required><br><br>
+
+                <label for="self_rating">Self Rating:</label>
+                <input type="text" id="self_rating" name="self_rating" required><br><br>
+
+                <label for="study_time">Study Time:</label>
+                <input type="text" id="study_time" name="study_time" required><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div class="portal">
+            <h3>Teacher Portal</h3>
+            <form action="/teacher" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="expertise">Expertise:</label>
+                <input type="text" id="expertise" name="expertise" required><br><br>
+
+                <label for="preferred_time">Preferred Time:</label>
+                <input type="text" id="preferred_time" name="preferred_time" required><br><br>
+
+                <label for="self_rating">Self Rating:</label>
+                <input type="text" id="self_rating" name="self_rating" required><br><br>
+
+                <label for="study_time">Study Time:</label>
+                <input type="text" id="study_time" name="study_time" required><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

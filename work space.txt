@@ -1,0 +1,46 @@
+if __name__ == '__main__':
+    serve(app, host="0.0.0.0", port=8000)
+
+
+    {
+        "name": "Prof. Michael Johnson",
+        "expertise": "Python for Web Development",
+        "self_rating": "8",
+        "future_career": "Full Stack Developer",
+        "preferred_time": "Flexible weekdays",
+        "study_time": "20 minutes per topic"
+    },
+    {
+        "name": "Dr. Emily Lee",
+        "expertise": "Python for Artificial Intelligence",
+        "self_rating": "7",
+        "future_career": "AI Researcher",
+        "preferred_time": "Weekends mornings",
+        "study_time": "25 minutes per topic"
+    },
+    {
+        "name": "Prof. David Garcia",
+        "expertise": "Python for Data Analysis",
+        "self_rating": "9",
+        "future_career": "Data Scientist",
+        "preferred_time": "Weekdays afternoons",
+        "study_time": "30 minutes per topic"
+    },
+    {
+        "name": "Dr. Sarah Clark",
+        "expertise": "Python for Scientific Computing",
+        "self_rating": "8",
+        "future_career": "Research Scientist",
+        "preferred_time": "Weekends afternoons",
+        "study_time": "20 minutes per topic"
+    },
+    {
+        "name": "Prof. John Roberts",
+        "expertise": "Python for Software Engineering",
+        "self_rating": "7",
+        "future_career": "Software Developer",
+        "preferred_time": "Weekdays mornings",
+        "study_time": "25 minutes per topic"
+    }
+]
+
